@@ -10,5 +10,7 @@ public class Main {
     //    cb - to check balance, ccl - to check credit limit
 
     public static void main(String[] args) {
+        ConsoleService consoleService = new ConsoleService();
+        consoleService.run();
     }
 }
